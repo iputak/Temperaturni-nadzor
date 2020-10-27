@@ -1,0 +1,132 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+main h1{
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 35px;
+	text-align:center;
+}
+
+.okvir {
+    width: 80%;
+    min-width: 600px;
+    margin: 20px auto;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    margin-bottom: 50px;
+}
+
+header h1{
+    float: right;
+    color: black;
+  margin-right:20px;
+  text-transform: uppercase;
+	font-style: italic;
+	font-size: 35px;
+	text-align:center;
+}
+
+main {
+    clear: both;
+}
+
+main h2{
+	text-align: center;
+	font-size:30px;
+}
+
+input{
+	width:30%;
+	border:none;
+	border-bottom:1px solid black;
+	outline:none;
+	padding:10px 20px;
+	font-size:20px;
+	color:#404040;
+	font-family: 'Open Sans', sans-serif;
+}
+
+input[type=submit]{
+	cursor:pointer;
+}
+
+.form-group {
+	font-style:italic;
+	font-size:18px;
+	text-align:center;
+}
+
+.loginbutt{
+	background-color:#404040;
+	padding:5px 10px 5px 10px;
+	color:white;
+	border-radius:3px;
+	border-color:#404040;
+}
+.loginbutt:hover{
+	background-color:#800080;
+}
+.help-block{
+	display:block;
+	color:red;
+	font-size:15px;
+	font-style:normal;
+}
+
+a.ina{
+	color: #a6a6a6;
+	pointer-events:none;
+}
+
+hr {
+    clear: both;
+    color: #ccc;
+}
+
+.msg{
+	display:block;
+	text-align:center;
+	font-size:11px;
+	font-style:italic;
+}
+
+footer {
+    width:100%;
+	margin: auto;
+	background-color:#404040;
+	text-align: center;
+	color: white;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+
+footer a{
+		color:white;
+		text-decoration:none;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .okvir {
+        width: 95%;
+        min-width: 0;
+        margin: 10px auto;
+    }
+
+	.buttons {
+		width:100%;
+		margin: 10px auto;
+		
+	}
+	
+	
+}
